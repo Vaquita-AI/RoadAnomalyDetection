@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import torch.nn as nn
 
 # Important parameters
-IMAGE_DIR = 'input_images_s'  # Directory containing images to explain
+IMAGE_DIR = 'input_images'  # Directory containing images to explain
 MODEL_PATH = 'best_model.pth'  # Path to the trained model
 CLASS_NAMES = ["Class0_Normal", "Class1_Anomalies"]  # Class names
 NUM_SAMPLES = 3000  # Number of samples for LIME
