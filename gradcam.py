@@ -9,6 +9,9 @@ import numpy as np
 import cv2
 import torch.nn as nn
 
+# Define the directory containing images
+image_dir = "input_images"
+
 # Load the trained model
 num_classes = 2
 model = models.resnet18()
@@ -27,8 +30,6 @@ image_transforms = transforms.Compose([
 # Define your custom labels
 labels = ["Class0_Normal", "Class1_Anomalies"]  # Replace with your actual labels
 
-# Define the directory containing images
-image_dir = "input_images_s"
 
 # Initialize Grad-CAM
 cam_extractor = GradCAMpp(model, target_layer='layer4')
