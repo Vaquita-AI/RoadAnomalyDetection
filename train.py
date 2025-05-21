@@ -12,8 +12,8 @@ from torchvision import models, datasets, transforms
 def main():
 
     # Each subfolder inside this dir should represent a class -> inside each subfolder are the images of this class
-    dataset_path = "Dataset/iteration_3" 
-    save_dir = 'Runs'
+    dataset_path = "datasets/iteration_3" 
+    save_dir = 'runs'
 
     run_name = input("Please enter the run name 🏃: ")
 
