@@ -133,6 +133,8 @@ python classification.py
 ```
 
 Upon execution, you'll be prompted if you want to copy the images to the output directory.
+Example: class 1 image: 
+![class1](input_images/temp_new/18c4d009-ff11950d.jpg)
 
 ### 3\. Grad-CAM++ Visualization (`gradcam.py`)
 
@@ -155,6 +157,8 @@ Then run the script:
 ```bash
 python gradcam.py
 ```
+Example: GradCAM++ Heatmap of class 1: 
+![gradcam](output_images/gradcam/355ad13c-874481b9.jpg)
 
 ### 4\. LIME Explanation (`lime_explanation.py`)
 
@@ -177,6 +181,8 @@ Then run the script:
 ```bash
 python lime_explanation.py
 ```
+Example: LIME explanation of class 1:
+![gradcam](output_images/lime/LIME_Class1_Anomalies_02dd2f2f-8ef6744a.jpg)
 
 ### 5\. Occlusion Sensitivity (`occlusion_sensitivity.py`)
 
@@ -208,6 +214,8 @@ Then run the script:
 ```bash
 python occlusion_sensitivity.py
 ```
+Example: Occlusion Sensitivtiy Heatmap of class 1:
+![gradcam](output_images/occlusion/3f4eb6a6-9eee52f9_occlusion.jpg)
 
 ### 6\. Supervised Occlusion Sensitivity (`supervised_occlusion_sensitivity.py`)
 
