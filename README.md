@@ -69,8 +69,7 @@ https://huggingface.co/datasets/Vaquita-AI/Traffic-Anomalies/tree/main
 1.  **Clone the repository**:
 
     ```bash
-    git clone https://git-lehre.thi.de/faculty-i/huber/hci-and-xai/2025/team-9.git
-    cd team-9
+    git clone https://github.com/Vaquita-AI/RoadAnomalyDetection.git
     ```
 
 2.  **Create a virtual environment** (optional but recommended):
@@ -276,9 +275,7 @@ python visualize_transforms.py
 
 ## Contributions
 
-* ahh5440: Grad-CAM++ (gradcam.py), LIME (lime_explanation.py), Segmentation Parameter Tester (segmentation_test.py) and Occlusion Sensitivity (occlusion_sensitivity.py)
-* suk9085:  Supervised Occlusion Sensitivity (supervised_occlusion_sensitivity.py) and Image Classification (classification.py).
-* sya2943: Model Training (train.py) and and Visualize Transforms (visualize_transforms.py).
+We welcome contributions. If you have suggestions for improvements, new features, or bug fixes, please feel free to fork the repository.
 
 -----
 
